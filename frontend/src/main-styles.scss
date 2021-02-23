@@ -1,0 +1,34 @@
+// Global styles and changing variable values
+
+// Fonts from google (Lato and Nunito)
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700');
+
+$cyan: #14EAFF;
+$purple: #702DFF;
+$light-purple: #9D6FFF;
+$light: #f8f8f8;
+$dark-purple: #3701A9;
+
+// Updating Bulma's global variables
+
+$family-sans-serif: "Nunito";
+$primary: $cyan;
+
+$link: $light-purple;
+
+// Updating Bulma's component variables
+
+$control-border-width: 2px;
+$input-border-width: transparent;
+$input-shadow: none;
+
+// Setting custom global styles
+
+html {
+    background: linear-gradient(to right top, $cyan, $purple);
+}
+
+html, body {
+    height: 100%;
+}
