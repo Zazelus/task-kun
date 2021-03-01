@@ -4,8 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700');
 
-$cyan: #14EAFF;
-$purple: #702DFF;
+$cyan: #14dcff;
+$purple: #6219ff;
 $light-purple: #9D6FFF;
 $light: #f8f8f8;
 $dark-purple: #3701A9;
@@ -26,7 +26,7 @@ $input-shadow: none;
 // Setting custom global styles
 
 html {
-    background: linear-gradient(to right top, $cyan, $purple);
+    background: linear-gradient(to right top, $light-purple, $cyan);
 }
 
 html, body {
@@ -50,4 +50,15 @@ html, body {
     background: white;
     border-radius: 5px;
     padding: 35px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-size: 26px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: #14C2FF;
 }
